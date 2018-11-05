@@ -1,14 +1,10 @@
 # origami-simple
 
-A Clojure library designed to ... well, that part is up to you.
+This is an origami sample with backward compatibility of opencv down to libc 2.19. 
 
-## Usage
-
-FIXME
-
-## License
-
-Copyright © 2018 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+```
+:dependencies [   
+  [origami "4.0.0-beta6"]
+  [opencv/opencv-native-linux_64 "4.0.0-beta"]
+  [org.clojure/clojure "1.8.0"]]
+```

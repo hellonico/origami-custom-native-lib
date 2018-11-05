@@ -1,8 +1,8 @@
 (ns origami-simple.core-test
   (:require
-    [opencv3.core :refer :all]
-    [opencv3.colors.rgb :as rgb]
-    [opencv3.utils :as u]
+    [opencv4.core :refer :all]
+    [opencv4.colors.rgb :as rgb]
+    [opencv4.utils :as u]
     [clojure.test :refer :all]
     [origami-simple.core :refer :all]))
 
