@@ -1,0 +1,9 @@
+{:mvn/repos
+ {
+ 	"vendredi" {:url "https://repository.hellonico.info/repository/hellonico/"}
+ }
+ :deps { 
+ 	origami {:mvn/version "4.0.0-beta6"}
+        opencv/opencv-native-ubuntu16   {:mvn/version "4.0.0-beta"}
+ }
+}
