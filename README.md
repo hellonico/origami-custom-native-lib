@@ -1,12 +1,12 @@
 # origami-simple
 
-This is an origami sample with backward compatibility of opencv compiled with libc 2.23 and no ffmpeg 
+This is an origami sample with backward compatibility of opencv compiled with libc 2.19.
 
 ```
 :dependencies [   
-  [origami "4.0.0-beta6" :exclusions [opencv/opencv-native]]
-  [opencv/opencv-native-ubuntu16-noffmpeg "4.0.0-beta"]
-  [org.clojure/clojure "1.8.0"]]
+  [origami "4.0.0-beta7"]
+  [opencv/opencv-native-libc_2_19 "4.0.0-beta"]
+  [org.clojure/clojure "1.9.0"]]
 ```
 
 or deps.edn 
@@ -17,8 +17,8 @@ or deps.edn
  	"vendredi" {:url "https://repository.hellonico.info/repository/hellonico/"}
  }
  :deps { 
- 	origami {:mvn/version "4.0.0-beta6"}
-    opencv/opencv-native-ubuntu16-noffmpeg {:mvn/version "4.0.0-beta"}
+    origami {:mvn/version "4.0.0-beta7" :exclusions [opencv/opencv-native]}
+    opencv/opencv-native-libc_2_19  {:mvn/version "4.0.0-beta"}
  }
 }
 ```
