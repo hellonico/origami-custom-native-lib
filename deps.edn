@@ -4,6 +4,6 @@
  }
  :deps { 
  	origami {:mvn/version "4.0.0-beta6"}
-        opencv/opencv-native-ubuntu16   {:mvn/version "4.0.0-beta"}
+    opencv/opencv-native-ubuntu16-noffmpeg {:mvn/version "4.0.0-beta"}
  }
 }

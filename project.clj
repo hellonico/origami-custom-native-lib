@@ -6,6 +6,6 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [   
-  [origami "4.0.0-beta6"]
-  [opencv/opencv-native-linux_64 "4.0.0-beta"]
+  [origami "4.0.0-beta6" :exclusions [opencv/opencv-native]]
+  [opencv/opencv-native-ubuntu16-noffmpeg "4.0.0-beta"]
   [org.clojure/clojure "1.8.0"]])
