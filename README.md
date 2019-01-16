@@ -1,11 +1,10 @@
 # origami-simple
 
-This is an origami sample with backward compatibility of opencv compiled with libc 2.23 and no ffmpeg 
+This is an origami sample with backward compatibility of opencv compiled with libc 2.19.
 
 ```
 :dependencies [   
-  [origami "4.0.0-beta6" :exclusions [opencv/opencv-native]]
-  [opencv/opencv-native-ubuntu16-noffmpeg "4.0.0-beta"]
+  [origami "4.0.0-2"]
   [org.clojure/clojure "1.8.0"]]
 ```
 
