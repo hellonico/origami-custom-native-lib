@@ -16,8 +16,8 @@ or deps.edn
  	"vendredi" {:url "https://repository.hellonico.info/repository/hellonico/"}
  }
  :deps { 
- 	origami {:mvn/version "4.0.0-beta6"}
-    opencv/opencv-native-ubuntu16-noffmpeg {:mvn/version "4.0.0-beta"}
+    origami {:mvn/version "4.0.0-beta7" :exclusions [opencv/opencv-native]}
+    opencv/opencv-native-libc_2_19  {:mvn/version "4.0.0-beta"}
  }
 }
 ```
