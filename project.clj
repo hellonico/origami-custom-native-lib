@@ -2,7 +2,7 @@
   :description "FIXME: write description"
   :repositories [["vendredi" "https://repository.hellonico.info/repository/hellonico/"]]
   :url "http://example.com/FIXME"  
-  :jvm-opts ["-Djava.library.path=natives"]
+  ; :jvm-opts ["-Djava.library.path=natives"]
   :main simple.core
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
