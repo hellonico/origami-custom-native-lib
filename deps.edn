@@ -7,6 +7,6 @@
       :video {:jvm-opts ["-Djava.library.path=natives"] :main-opts ["-m" "simple.video"]}
  }
  :deps { 
-    origami {:mvn/version "4.3.0-4" :exclusions [opencv/opencv-native]}
+    origami {:mvn/version "4.7.0-2" :exclusions [opencv/opencv-native]}
  }
 }
