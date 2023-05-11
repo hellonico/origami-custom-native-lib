@@ -6,6 +6,7 @@
   :main simple.core
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :aliases {"nativetest" ["test" ":only" "origami-simple.native-test" ]}
   :dependencies [   
-  [origami "4.7.0-2" :exclusions [opencv/opencv-native]]
+  [origami "4.7.0-5" :exclusions [opencv/opencv-native]]
   [org.clojure/clojure "1.11.1"]])
